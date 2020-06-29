@@ -44,6 +44,10 @@
   .title {
     width: 75%;
   }
+
+  p {
+    font-size: 110%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
