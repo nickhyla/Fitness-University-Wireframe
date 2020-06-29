@@ -22,7 +22,7 @@ html {
 section::before {
   display: block;
   content: " ";
-  height: 5px;
+  height: 4px;
   width: 20%;
   background-color: #819CB7;
   margin: 40px 0;
