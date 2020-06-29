@@ -1,0 +1,78 @@
+/* 
+*
+* General Styles
+*
+*/
+
+* {
+  margin: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section::before {
+  display: block;
+  content: " ";
+  height: 5px;
+  width: 20%;
+  background-color: #819CB7;
+  margin: 40px 0;
+}
+
+section:last-of-type {
+  margin-bottom: 60px;
+}
+
+/* 
+*
+* Image Styles
+*
+*/
+
+.image {
+  width: 32%;
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+
+
+/* 
+*
+* Text Styles
+*
+*/
+
+.title {
+  width: 50%;
+  margin-bottom: 10px;
+  display: block;
+}
+
+h1 {
+  font-size: 200%;
+  margin-top: 80px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 180%;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+p {
+  line-height: 140%;
+}
